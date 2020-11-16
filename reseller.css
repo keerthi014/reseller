@@ -1,0 +1,89 @@
+/** Reseller Tab CSS Start **/
+.reseller-tab-container h2 {
+    font-weight: 700;
+    color: #313131;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.reseller-tab-container h3 {
+	margin-top: 22px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #313131;
+}
+
+.reseller-tab-container ul {
+    list-style-type: none;
+    padding-left: 24px;
+    color: #313131;
+}
+
+.reseller-tab-container ul li {
+	margin-bottom: 10px;
+}
+
+.reseller-tab-container li:before {
+    content: "done";
+    color: green;
+    font-family: material icons;
+    display: inline-block;
+    margin-left: -24px;
+    width: 24px;
+	vertical-align: middle;
+}
+
+.reseller-tab-container .files-list__container li:before{
+	content: " ";
+}
+
+/**Additional Support **/
+.support-agent::before {
+    content: "\f0e2";
+    font-family: Material Icons;
+    display: flex;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.support-engineer::before{
+	content: "\ea3d";
+    font-family: Material Icons;
+    display: flex;
+    margin-right: 10px;
+    font-size: 24px;	
+}
+
+.support-person::before {
+    content: "\e7fd";
+    font-family: Material Icons;
+    display: flex;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.support-implmnt::before {
+    content: "\e2bd";
+    font-family: Material Icons;
+    display: flex;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.support-agent, 
+.support-engineer,
+.support-person,
+.support-implmnt{
+	font-size: 18px;
+	line-height: 27px;
+	margin: 20px 35px 10px 0;
+	display: -webkit-box;
+	color: #313131;
+}
+
+.reseller-tab-container {
+	text-align: justify;
+}
+
+/** Reseller Tab CSS End **/
